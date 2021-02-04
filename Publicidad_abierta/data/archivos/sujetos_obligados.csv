@@ -1,0 +1,4 @@
+#,"ID de sujeto obligado",Función,"Orden (Federal, Estatal, Municipal)",Estado,Nombre,Siglas,"URL de página"
+1,1,"Contratante y solicitante",Federal,Federación,"Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales",INAI,http://www.inai.org.mx
+2,2,Contratante,Federal,Federación,Sujeto_Contratante,SC,
+3,3,Solicitante,Federal,Federación,Sujeto_Solicitante,SS,

@@ -1,0 +1,3 @@
+CREATE ALGORITHM=UNDEFINED DEFINER=`tpov1_user_views`@`%` SQL SECURITY DEFINER VIEW `vtab_presupuesto_PACS`  AS  select 
+`c`.`id_presupuesto` AS `id_presupuesto`, `c`.`id_ejercicio` AS `id_ejercicio`, `c`.`denominacion` AS `denominacion` 
+from tab_presupuestos `c` join cat_ejercicios `a` where (`a`.`active` = 1) and (`c`.`active` = 1) and (`c`.`denominacion` != '') group by `c`.`denominacion`, `c`.`id_presupuesto`;
